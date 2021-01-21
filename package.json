@@ -1,0 +1,22 @@
+{
+  "name": "site_animais_fantasticos",
+  "version": "1.0.0",
+  "description": "Aplicação  web voltado para a aplicação de conceitos de JavaScript!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroLimass/site_animais_fantasticos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroLimass/site_animais_fantasticos/issues"
+  },
+  "homepage": "https://github.com/PedroLimass/site_animais_fantasticos#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
