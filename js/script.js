@@ -3,7 +3,7 @@ import Accordion from "./modules/accordion-animation.js";
 import TabNav from "./modules/tabNav.js";
 import Modal from "./modules/modal.js";
 import ToolTip from "./modules/tooltip.js";
-import initDropDownMenu from "./modules/dropdown-menu.js";
+import DropDownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
 import fetchAnimais from "./modules/fetch-animais.js";
@@ -32,7 +32,9 @@ modal.init();
 const tooltip = new ToolTip("[data-tooltip]");
 tooltip.init();
 
-initDropDownMenu();
+const dropMenu = new DropDownMenu("[data-dropdown]");
+dropMenu.init();
+
 initMenuMobile();
 initFuncionamento();
 initAnimaScroll();
